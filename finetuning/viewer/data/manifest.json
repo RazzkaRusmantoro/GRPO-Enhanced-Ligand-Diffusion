@@ -1,0 +1,372 @@
+{
+  "pockets": [
+    {
+      "id": "1h36",
+      "pocket_id": "1h36-A-rec-1o79-r23-lig-tt-docked-5-pocket10",
+      "pdb": "data/1h36.pdb",
+      "models": {
+        "diffsbdd": [
+          {
+            "sdf": "data/1h36_diffsbdd_0.sdf",
+            "qed": 0.43862787813120624,
+            "sa": 0.49330986042539354,
+            "smiles": "C=C(C=C=CC)N[C@H](C)[C@@H]1CS[C@H]([C@@H](C)C=O)N1",
+            "valid": true,
+            "atom_count": 18,
+            "vina": -5.43493,
+            "score_failure": null
+          },
+          {
+            "sdf": "data/1h36_diffsbdd_1.sdf",
+            "qed": 0.27435715857368514,
+            "sa": 0.5746814071222288,
+            "smiles": "CCC(CC)N(CCCC[C@H]1CCCC[C@](O)(CO)[C@H]1C)C[C@@H]1C2=C[C@H](C)C[C@H]21",
+            "valid": true,
+            "atom_count": 29,
+            "vina": -3.8792,
+            "score_failure": null
+          },
+          {
+            "sdf": "data/1h36_diffsbdd_2.sdf",
+            "qed": 0.39889358577269224,
+            "sa": 0.7350739217843008,
+            "smiles": "C=C=CC(=O)CCC",
+            "valid": true,
+            "atom_count": 8,
+            "vina": -4.19978,
+            "score_failure": null
+          }
+        ],
+        "grpo": [
+          {
+            "sdf": "data/1h36_grpo_0.sdf",
+            "qed": 0.7169733974475327,
+            "sa": 0.6731054240311604,
+            "smiles": "CCC(CC)[C@@H](CN)N1C[C@@H](N)[C@@H](C)C1",
+            "valid": true,
+            "atom_count": 15,
+            "vina": -5.28316,
+            "score_failure": null
+          },
+          {
+            "sdf": "data/1h36_grpo_1.sdf",
+            "qed": 0.5271607812292177,
+            "sa": 0.7330150090783286,
+            "smiles": "C[C@@H]1C[C@H](C)C[C@@H](O)C1",
+            "valid": true,
+            "atom_count": 9,
+            "vina": -4.85321,
+            "score_failure": null
+          },
+          {
+            "sdf": "data/1h36_grpo_2.sdf",
+            "qed": 0.5619240206157814,
+            "sa": 0.7066816530425807,
+            "smiles": "CCCCC(C)[C@@H]1CC=CC[C@@H]1C",
+            "valid": true,
+            "atom_count": 13,
+            "vina": -6.32367,
+            "score_failure": null
+          }
+        ]
+      },
+      "heldout": {
+        "diffsbdd": {
+          "n": 8,
+          "validity": 0.625,
+          "vina": -2.045668,
+          "qed": 0.4397691591928323,
+          "sa": 0.7423937370912282
+        },
+        "grpo": {
+          "n": 8,
+          "validity": 0.875,
+          "vina": -6.127225714285714,
+          "qed": 0.5235057358466789,
+          "sa": 0.6943391168951433
+        }
+      },
+      "pdb_full": "data/1h36_full.pdb",
+      "full_pdb_id": "1H36",
+      "full_fit_rmsd": 0.0,
+      "full_residues": 619,
+      "full_chain": "A"
+    },
+    {
+      "id": "1ai4",
+      "pocket_id": "1ai4-A-rec-1ai5-mnp-lig-tt-docked-0-pocket10",
+      "pdb": "data/1ai4.pdb",
+      "models": {
+        "diffsbdd": [
+          {
+            "sdf": "data/1ai4_diffsbdd_0.sdf",
+            "qed": 0.3546985273580922,
+            "sa": 0.6318644537637707,
+            "smiles": "OCN[C@H]1C=C[C@H](O)C=C1",
+            "valid": true,
+            "atom_count": 10,
+            "vina": -3.05473,
+            "score_failure": null
+          },
+          {
+            "sdf": "data/1ai4_diffsbdd_1.sdf",
+            "qed": 0.5064932780430094,
+            "sa": 0.6468251622574025,
+            "smiles": "CCC1=CCC(C)N=C1",
+            "valid": true,
+            "atom_count": 9,
+            "vina": -4.35081,
+            "score_failure": null
+          },
+          {
+            "sdf": "data/1ai4_diffsbdd_2.sdf",
+            "qed": 0.42692979337263026,
+            "sa": 0.6318551288612139,
+            "smiles": "CC1CCC=C(C2CC=CC[C@H]2OO)C1",
+            "valid": true,
+            "atom_count": 15,
+            "vina": -4.74019,
+            "score_failure": null
+          }
+        ],
+        "grpo": [
+          {
+            "sdf": "data/1ai4_grpo_0.sdf",
+            "qed": 0.7031463295379026,
+            "sa": 0.8843199647988393,
+            "smiles": "OCC1CCC(N2CCCC2)CC1",
+            "valid": true,
+            "atom_count": 13,
+            "vina": -4.39988,
+            "score_failure": null
+          },
+          {
+            "sdf": "data/1ai4_grpo_1.sdf",
+            "qed": 0.6030670940084557,
+            "sa": 0.6812965222088117,
+            "smiles": "N[C@@H](O)C1CCC[C@@H]([C@H]2CCCCN2)C1",
+            "valid": true,
+            "atom_count": 15,
+            "vina": -6.4815,
+            "score_failure": null
+          },
+          {
+            "sdf": "data/1ai4_grpo_2.sdf",
+            "qed": 0.4494806510615327,
+            "sa": 0.7398120807968831,
+            "smiles": "O[C@@H]1C=CCCC1",
+            "valid": true,
+            "atom_count": 7,
+            "vina": -3.88915,
+            "score_failure": null
+          }
+        ]
+      },
+      "heldout": {
+        "diffsbdd": {
+          "n": 8,
+          "validity": 0.25,
+          "vina": 4.814575,
+          "qed": 0.5957648545923306,
+          "sa": 0.6469522753051191
+        },
+        "grpo": {
+          "n": 8,
+          "validity": 0.875,
+          "vina": -0.5603885714285715,
+          "qed": 0.5303377498504557,
+          "sa": 0.6727488756996818
+        }
+      },
+      "pdb_full": "data/1ai4_full.pdb",
+      "full_pdb_id": "1AI4",
+      "full_fit_rmsd": 0.0,
+      "full_residues": 557,
+      "full_chain": "B"
+    },
+    {
+      "id": "1phk",
+      "pocket_id": "1phk-A-rec-1phk-atp-lig-tt-min-0-pocket10",
+      "pdb": "data/1phk.pdb",
+      "models": {
+        "diffsbdd": [
+          {
+            "sdf": "data/1phk_diffsbdd_0.sdf",
+            "qed": 0.17374455420014995,
+            "sa": 0.4538571146900225,
+            "smiles": "CO[C@H]1[C@H](O)C=N[C@H]2C(C)=C(CCN(O)CCCS)NC2N1C1=C=C(C=NC(C)=O)CCC1",
+            "valid": true,
+            "atom_count": 33,
+            "vina": -2.84284,
+            "score_failure": null
+          },
+          {
+            "sdf": "data/1phk_diffsbdd_1.sdf",
+            "qed": 0.5105633480208109,
+            "sa": 0.5736853609873314,
+            "smiles": "CC1CCNCC1=[SH]CC[C@H](CO)C(C)C",
+            "valid": true,
+            "atom_count": 16,
+            "vina": -0.56865,
+            "score_failure": null
+          },
+          {
+            "sdf": "data/1phk_diffsbdd_2.sdf",
+            "qed": 0.47284320655135703,
+            "sa": 0.72526998915884,
+            "smiles": "C=C(N)NN=C(C)C=CCC",
+            "valid": true,
+            "atom_count": 11,
+            "vina": -5.57573,
+            "score_failure": null
+          }
+        ],
+        "grpo": [
+          {
+            "sdf": "data/1phk_grpo_0.sdf",
+            "qed": 0.49341660556477374,
+            "sa": 0.9229872426154034,
+            "smiles": "CCCCCCCCNCCCCC",
+            "valid": true,
+            "atom_count": 14,
+            "vina": -3.56334,
+            "score_failure": null
+          },
+          {
+            "sdf": "data/1phk_grpo_1.sdf",
+            "qed": 0.5644756014187353,
+            "sa": 0.6632095619698509,
+            "smiles": "CCCCC[C@H](CCC[C@@H]1CCCN[C@H]1N)[C@@H](C)O",
+            "valid": true,
+            "atom_count": 19,
+            "vina": -5.13457,
+            "score_failure": null
+          },
+          {
+            "sdf": "data/1phk_grpo_2.sdf",
+            "qed": 0.7006302308900609,
+            "sa": 0.6904713966323243,
+            "smiles": "CC[C@@H](CCN)[C@@H]1CCCC[C@H]1N",
+            "valid": true,
+            "atom_count": 13,
+            "vina": -3.50135,
+            "score_failure": null
+          }
+        ]
+      },
+      "heldout": {
+        "diffsbdd": {
+          "n": 8,
+          "validity": 0.125,
+          "vina": -9.78487,
+          "qed": 0.3758444650038417,
+          "sa": 0.3092530633522546
+        },
+        "grpo": {
+          "n": 8,
+          "validity": 1.0,
+          "vina": -5.24332625,
+          "qed": 0.581207897626914,
+          "sa": 0.663111366212691
+        }
+      },
+      "pdb_full": "data/1phk_full.pdb",
+      "full_pdb_id": "1PHK",
+      "full_fit_rmsd": 0.0,
+      "full_residues": 277,
+      "full_chain": "A"
+    },
+    {
+      "id": "14gs",
+      "pocket_id": "14gs-A-rec-20gs-cbd-lig-tt-min-0-pocket10",
+      "pdb": "data/14gs.pdb",
+      "models": {
+        "diffsbdd": [
+          {
+            "sdf": "data/14gs_diffsbdd_0.sdf",
+            "qed": 0.6149653813695968,
+            "sa": 0.602444975707669,
+            "smiles": "C[C@@H](CCO)C1=C=CCCC1",
+            "valid": true,
+            "atom_count": 11,
+            "vina": -3.43551,
+            "score_failure": null
+          },
+          {
+            "sdf": "data/14gs_diffsbdd_1.sdf",
+            "qed": 0.5257296097384777,
+            "sa": 0.8025329354977377,
+            "smiles": "CNCC[C@H](C)O",
+            "valid": true,
+            "atom_count": 7,
+            "vina": -2.70634,
+            "score_failure": null
+          },
+          {
+            "sdf": "data/14gs_diffsbdd_2.sdf",
+            "qed": 0.5662506870996705,
+            "sa": 0.6553353689310372,
+            "smiles": "CC[C@@H](C(O)O)[C@](C)(CO)C(C)C",
+            "valid": true,
+            "atom_count": 13,
+            "vina": -3.84013,
+            "score_failure": null
+          }
+        ],
+        "grpo": [
+          {
+            "sdf": "data/14gs_grpo_0.sdf",
+            "qed": 0.3531455187597984,
+            "sa": 0.6333431057576903,
+            "smiles": "O=C(O)[C@@H]1CC[C@@H]2[C@@H](C(O)O)N21",
+            "valid": true,
+            "atom_count": 12,
+            "vina": -4.00547,
+            "score_failure": null
+          },
+          {
+            "sdf": "data/14gs_grpo_1.sdf",
+            "qed": 0.5741789018073682,
+            "sa": 0.7375881913616666,
+            "smiles": "CC[C@H]1CCC[C@H](O)[C@H]1O",
+            "valid": true,
+            "atom_count": 10,
+            "vina": -3.5131,
+            "score_failure": null
+          },
+          {
+            "sdf": "data/14gs_grpo_2.sdf",
+            "qed": 0.578553840736271,
+            "sa": 0.7374599639678007,
+            "smiles": "CC[C@H]1CC[C@@H](N)CC[C@@H]1C",
+            "valid": true,
+            "atom_count": 11,
+            "vina": -4.07668,
+            "score_failure": null
+          }
+        ]
+      },
+      "heldout": {
+        "diffsbdd": {
+          "n": 8,
+          "validity": 0.25,
+          "vina": -3.067425,
+          "qed": 0.47617113084797047,
+          "sa": 0.6944145925480099
+        },
+        "grpo": {
+          "n": 8,
+          "validity": 0.875,
+          "vina": -3.374062857142857,
+          "qed": 0.5576767873576494,
+          "sa": 0.6854405276109956
+        }
+      },
+      "pdb_full": "data/14gs_full.pdb",
+      "full_pdb_id": "14GS",
+      "full_fit_rmsd": 0.0,
+      "full_residues": 194,
+      "full_chain": "A"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+name: diffsbdd
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch=2.4.1
+  - pytorch-cuda=12.4
+  - pytorch-lightning=1.8.4
+  - wandb=0.13.*
+  - rdkit
+  - biopython
+  - imageio
+  - scipy
+  - networkx
+  - numpy=1.26.*
+  - openbabel
+  - pandas
+  - seaborn
+  - torchmetrics
+  - tqdm
+  - pyyaml
+  - protobuf=3.20.*

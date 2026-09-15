@@ -1,0 +1,11 @@
+{
+  "tag": "unguided",
+  "n_molecules": 32,
+  "validity": 0.34375,
+  "connected": 0.34375,
+  "mean_reward": 0.4551355260926481,
+  "mean_vina": -2.683559090909091,
+  "mean_qed": 0.479085294961034,
+  "mean_sa": 0.6392094619570661,
+  "diversity": 0.9105969311646891
+}

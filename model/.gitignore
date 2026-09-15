@@ -1,0 +1,7 @@
+checkpoints/*.ckpt
+runs/
+outputs/
+data/
+__pycache__/
+*.pyc
+.wandb/

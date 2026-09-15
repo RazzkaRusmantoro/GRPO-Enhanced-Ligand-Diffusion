@@ -1,0 +1,11 @@
+{
+  "tag": "ftdiff",
+  "n_molecules": 32,
+  "validity": 0.4375,
+  "connected": 0.4375,
+  "mean_reward": 0.6371398231893053,
+  "mean_vina": -2.6987071428571427,
+  "mean_qed": 0.5117263019277717,
+  "mean_sa": 0.7507790884608987,
+  "diversity": 0.9096346661821698
+}

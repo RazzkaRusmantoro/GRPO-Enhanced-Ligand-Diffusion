@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PCMG pocket viewer</title>
+  <link rel="stylesheet" href="style.css?v=11" />
+</head>
+<body>
+  <main>
+    <div id="stage"></div>
+    <div class="caption">
+      <strong id="status">Loading…</strong>
+      <span>Drag to rotate · scroll to zoom · double-click to focus the ligand</span>
+    </div>
+  </main>
+
+  <aside class="analysis">
+    <div class="legend">
+      <span><i class="diff"></i>DiffSBDD</span>
+      <span><i class="grpo"></i>GRPO</span>
+    </div>
+
+    <section class="panel-block">
+      <h2>Pocket average</h2>
+      <div id="pocket-chart" class="comparison-chart"></div>
+    </section>
+
+    <section class="panel-block">
+      <h2 id="ligand-heading">Selected ligand</h2>
+      <div id="ligand-chart" class="comparison-chart"></div>
+    </section>
+  </aside>
+
+  <div class="toolbar">
+    <div class="control">
+      <span>POCKET</span>
+      <div class="dropdown" id="pocket-dropdown">
+        <button type="button" class="dd-toggle" id="pocket-toggle" aria-haspopup="listbox" aria-expanded="false">
+          <span id="pocket-label">—</span>
+          <i class="dd-caret"></i>
+        </button>
+        <ul class="dd-menu" id="pocket-menu" role="listbox"></ul>
+      </div>
+    </div>
+    <div class="control">
+      <span>VIEW</span>
+      <div class="buttons" id="rep">
+        <button type="button" data-rep="surface" class="active">Surface</button>
+        <button type="button" data-rep="ribbon">Ribbon</button>
+      </div>
+    </div>
+    <div class="control">
+      <span>MODEL</span>
+      <div class="buttons">
+        <button type="button" id="btn-diffsbdd" data-model="diffsbdd">DiffSBDD</button>
+        <button type="button" id="btn-grpo" class="active" data-model="grpo">GRPO</button>
+      </div>
+    </div>
+    <div class="control">
+      <span>LIGAND</span>
+      <div class="buttons ligand-buttons" id="ligands"></div>
+    </div>
+  </div>
+
+  <script src="https://3Dmol.org/build/3Dmol-min.js"></script>
+  <script src="app.js?v=18"></script>
+</body>
+</html>

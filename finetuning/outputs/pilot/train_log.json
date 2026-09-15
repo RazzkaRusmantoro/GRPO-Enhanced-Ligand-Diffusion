@@ -1,0 +1,56 @@
+[
+  {
+    "iteration": 0,
+    "loss": -0.05103848040103912,
+    "pockets": [
+      {
+        "pocket_id": "5x69-B-rec-5x5q-ump-lig-tt-docked-7-pocket10",
+        "mean_reward": 0.6618307669337131,
+        "mean_vina": -1.0398525,
+        "n_valid": 2,
+        "rewards": [
+          0.0,
+          1.2117319207478472,
+          1.4355911469870053,
+          0.0
+        ]
+      }
+    ]
+  },
+  {
+    "iteration": 1,
+    "loss": -0.04271627902984619,
+    "pockets": [
+      {
+        "pocket_id": "2chz-A-rec-2chz-093-lig-tt-docked-0-pocket10",
+        "mean_reward": 0.744790731401516,
+        "mean_vina": -2.6866775,
+        "n_valid": 2,
+        "rewards": [
+          0.0,
+          1.7212661113985632,
+          1.2578968142075007,
+          0.0
+        ]
+      }
+    ]
+  },
+  {
+    "iteration": 2,
+    "loss": -0.03189664006233215,
+    "pockets": [
+      {
+        "pocket_id": "5cgv-A-rec-4e5f-0n7-lig-tt-min-0-pocket10",
+        "mean_reward": 0.7275918068978843,
+        "mean_vina": -0.83118,
+        "n_valid": 2,
+        "rewards": [
+          0.0,
+          0.0,
+          1.2686510695658,
+          1.6417161580257371
+        ]
+      }
+    ]
+  }
+]

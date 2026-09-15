@@ -1,0 +1,24 @@
+{
+  "unguided": {
+    "tag": "unguided",
+    "n_molecules": 160,
+    "validity": 0.36875,
+    "connected": 0.36875,
+    "mean_reward": 0.34134616046850147,
+    "mean_vina": -3.1570400000000003,
+    "mean_qed": 0.4504396916462082,
+    "mean_sa": 0.6707533716850406,
+    "diversity": 0.9137134365783226
+  },
+  "ftdiff": {
+    "tag": "ftdiff",
+    "n_molecules": 160,
+    "validity": 0.925,
+    "connected": 0.925,
+    "mean_reward": 1.118802821090382,
+    "mean_vina": -3.9068288513513507,
+    "mean_qed": 0.5050129140919258,
+    "mean_sa": 0.7028428457888369,
+    "diversity": 0.8907412563527234
+  }
+}

@@ -1,0 +1,55 @@
+seed: 17
+device: auto
+
+paths:
+  checkpoint: ../model/checkpoints/crossdocked_fullatom_cond.ckpt
+  diffsbdd_root: ../model/DiffSBDD
+  processed_dir: ../data/processed_crossdock_noH_full_temp
+  output_dir: outputs/sufficient
+
+pockets:
+  source_split: val
+  n_ft_pockets: 25
+  n_test_pockets: 20
+  kmeans_k: 25
+  exclude_test: true
+
+sampler:
+  kind: skip_ddpm
+  n_steps: 50
+  group_size: 8
+  interp_gamma: 0.25
+  interp_eta: 0.25
+  interp_scale: 1.0
+  sanitize: true
+  largest_frag: true
+
+train:
+  iterations: 100
+  batch_pockets: 1
+  inner_updates: 2
+  lr: 1.0e-4
+  clip_eps: 0.2
+  dual_clip: 3.0
+  max_grad_norm: 5.0
+  save_every: 10
+
+reward:
+  threshold: 0.5
+  alpha: 10.0
+  weights:
+    vina: 1.0
+    qed: 1.0
+    sa: 1.0
+  vina_lo: 0.0
+  vina_hi: 12.0
+
+docking:
+  engine: qvina
+  box_size: 20.0
+  timeout: 120.0
+  score_only: true
+
+eval:
+  n_samples: 8
+  timesteps: 50

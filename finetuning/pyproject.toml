@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ftdiff"
+version = "0.1.0"
+description = "GRPO fine-tuning of DiffSBDD with time-free sampling"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.23,<2",
+  "pandas>=1.5",
+  "PyYAML>=6",
+  "torch>=2.4,<2.5",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.scripts]
+ftdiff-viewer = "viewer_server:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+py-modules = [
+  "chemistry",
+  "config",
+  "decode",
+  "docking",
+  "evaluate",
+  "grpo",
+  "model",
+  "pockets",
+  "policy",
+  "reward",
+  "sampler",
+  "train_loop",
+  "viewer_server",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
